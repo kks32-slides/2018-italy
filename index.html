@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <title>Large deformation modelling in geomechanics</title>
+      <title>Mechanics of granular column collapse in fluid</title>
       <link rel="stylesheet" href="css/reveal.css">
       <link rel="stylesheet" href="css/theme/white.css">
       <!-- Theme used for syntax highlighting of code -->
@@ -55,16 +55,6 @@
                </section>
             </section>
             <section>
-               <!-- Aerial landslides -->
-               <section>
-                  <h2>Global landslide hazard</h2>
-                  <figure>
-                     <img style="border:0;" src="images/landslide-deaths.png" width="100%">
-                     <figcaption>
-                        Fatalities due to landslides, 2007 - 2013 (Source: Nasa, 2015).
-                     </figcaption>
-                  </figure>
-               </section>
                <!-- Dissipation mechanism -->
                <section>
                   <h2>Possible boundary conditions of submarine run‐out</h2>
@@ -75,21 +65,6 @@
                      <li>Pore pressure does not dissipate.</li>
                   </ul>
                </section>
-               <!-- Submarine landslide -->
-               <section>
-                  <h2>Submarine landslides</h2>
-                  <img style = "border:0;" src="images/submarine_landslide.png" width="70%">
-               </section>
-               <!--
-               <section>
-                  <h2>MPM submarine landslide</h2>
-                  <video  width="80%" autoplay controls loop>
-                     <source src="media/mpm-submarine-landslide.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                  </video>
-                  <p>Depth-averaged Material Point Method (Taka et al., 2012)</p>
-               </section>
-               -->
                <!-- Landslide mechanism -->
                <section>
                   <h2>Mechanism of submarine landslides</h2>
@@ -99,12 +74,6 @@
                      <li>Material type influences the mode of the flow.</li>
                      <li>Target: Clay‐rich flow (Less diffusive, Hydroplaning).</li>
                   </ul>
-               </section>
-               <!-- Mechanism of runout-->
-               <!--
-               <section>
-                  <h2>Mechanism of submarine runout</h2>
-                  <img style = "border:0;" src="images/water_entrainment.png" width="100%">
                </section>
                <!-- LBM DEM a6 -->
                <section>
@@ -184,40 +153,6 @@
                         <source src="media/tumble.webm" type="video/webm">
                         Your browser does not support the video tag.
                      </video>
-                  </div>
-               </section>
-               <!-- Turulence modelling in LBM -->
-               <section>
-                  <h2>LBM laminar & turbulent flows</h2>
-                  <div style="float: left; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src="images/obstacle_lbm.png" width ="80%">
-                        <figcaption style = "font-size: 80%; text-align: center; ">
-                           Lattice Boltzmann
-                        </figcaption>
-                     </figure>
-                     <br />
-                     <figure>
-                        <img style = "border:0;" src="images/obstacle_cfd.png" width ="85%">
-                        <figcaption style = "font-size: 80%; text-align: center; ">
-                           CFD
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <div style="float: right; width: 47%;">
-                     <figure>
-                        <img style = "border:0;" src="images/poiseuille.png" width ="70%">
-                        <figcaption style = "font-size: 80%; text-align: center;">
-                           Poiseuille Flow
-                        </figcaption>
-                     </figure>
-                     <p> Smagorinsky model (LES):</p>
-                     <!--$\nu_{s}(x,t)=(C_s \Delta)^2\sqrt{S_{ij}S_{ij}} \mbox{  ;  } S_{ij}=\frac{1}{2}(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i})$-->
-                     <video  id="Karman" width="120%" autoplay loop controls>
-                        <source src="media/karman.webm" type="video/webm">
-                        Your browser does not support the video tag.
-                     </video>
-                     <br/>Karman Vortex Street
                   </div>
                </section>
                <!-- Collapse in a fluid -->
@@ -627,18 +562,6 @@
                      <img style = "border:0;" src="images/slope_runout.png" width="80%">
                      <figcaption>runout evolution ('a' of 0.8)</figcaption>
                   </figure>
-               </section>
-               <!-- CPU v GPU -->
-               <!--
-                  <section>
-                    <h3>CPU v GPU</h3>
-                    <img style = "border:0;" src="images/cpu_gpu.png" width ="100%">
-                  </section>
-                  -->
-               <!-- GPU -->
-               <section>
-                  <h3>LBM-DEM Multi-GPU implementation</h3>
-                  <img style = "border:0;" src="images/multi-gpu.png" width ="80%">
                </section>
                <!--LBM DEM 10,000 particles-->
                <section>
