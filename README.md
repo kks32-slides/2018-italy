@@ -1,0 +1,10 @@
+# Mechanics of granular column collapse in fluids
+> Krishna Kumar, Kenichi Soga and Jean-Yves Delenne (2018), Reggio Calabria, Italy. 30 May 2018.
+
+[https://kks32-slides.github.io/2018-texas/#/](https://kks32-slides.github.io/2018-italy/#/)
+
+[![License](https://img.shields.io/badge/license-cc--by--4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+This paper investigates the effect of initial volume fraction on the runout characteristics of the collapse of granular columns in a fluid. Two-dimensional sub-grain scale numerical simulations are performed to understand the flow dynamics of granular collapse in a fluid. The Discrete Element (DEM) technique is coupled with the Lattice Boltzmann Method (LBM), for fluid-grain interactions, to understand the evolution of submerged granular flows. The fluid phase is simulated using Multiple-Relaxation-Time LBM (LBM-MRT) for numerical stability. In order to simulate interconnected pore space in 2D, a reduction in the radius of the grains (hydrodynamic radius) is assumed during LBM computations. The collapse of a granular column in a fluid is compared with the dry cases to understand the effect of fluid on the runout behaviour. A parametric analysis is performed to assess the influence of the granular characteristics (initial packing) on the evolution of flow and run-out distances. The volume of the initial packing is changed to simulate different stress conditions while maintaining the same aspect ratio. The granular flow dynamics is investigated by analysing the effect of hydroplaning, water entrainment and viscous drag on the granular mass. The mechanism of energy dissipation, the shape of the flow front, water entrainment and evolution of packing density is used to explain the difference in the flow characteristics of loose and dense granular column collapse in a fluid. A GPGPU 2D LBM-DEM code is used to study the effect of lattice grid size on the run-out behaviour.
+
+Keywords: Lattice Boltzmann (LBM), Discrete Element Method (DEM), Granular column collapse, Granular flows, Hydroplaning, Water entrainment, Viscous drag.
